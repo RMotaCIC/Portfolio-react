@@ -1,0 +1,94 @@
+/* Header container --------------------------*/
+.header-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.07);
+  padding: 0 60px;
+}
+
+/* Logo container ----------------------------*/
+.logo-container {
+  height: 55px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.logo-container .line {
+  color: #555552;
+  font-weight: 300;
+  font-size: 44px;
+}
+.logo-container .dev {
+  color: #00FF8C;
+}
+
+/* Navigation bar ----------------------------*/
+.header-nav {
+  width: 550px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav .nav-link {
+  all: unset;
+  position: relative;
+  transition: 0.5s;
+}
+
+.header-nav .nav-link:hover {
+  cursor: pointer;
+  color: #00FF8C;
+  transform: translate(0, -2px);
+}
+/* Underscore animation */
+.header-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #00FF8C;
+  transition: 0.3s;
+}
+.header-nav .nav-link:hover::before {
+  width: 100%;
+}
+/* Collab button */
+.header-nav .collab {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+  color: #090909;
+  font-family: "Space Mono", sans-serif;
+  font-weight: bold;
+  background-color: #00FF8C;
+  transition: 0.3s;
+}
+.header-nav .collab:hover {
+  cursor: pointer;
+  color: #090909;
+  scale: 1.15;
+}
+.header-nav .collab::before {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 17%;
+  width: 0;
+  height: 2px;
+  background-color: #090909;
+  transition: 0.3s;
+}
+.header-nav .collab:hover::before {
+  width: 68%;
+}

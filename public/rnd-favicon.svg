@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="8" fill="#080808"/>
+  <text
+    x="50%"
+    y="50%"
+    dominant-baseline="central"
+    text-anchor="middle"
+    font-family="'DM Mono', 'Courier New', monospace"
+    font-weight="500"
+    font-size="18"
+    letter-spacing="-0.5"
+    fill="#EFEFED"
+  >RND<tspan fill="#00FF8C">.</tspan></text>
+</svg>
