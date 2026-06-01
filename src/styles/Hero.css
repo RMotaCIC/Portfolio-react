@@ -1,0 +1,119 @@
+/* Hero container */
+.hero-container {
+  width: 100%;
+  height: 800px;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+/* Hero Text Container ------------------------------*/
+.hero-text-container {
+  width: 650px;
+  height: 650px;
+  text-align: center;
+}
+/* State */
+.hero-text-container .state {
+  width: 230px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid hsla(153, 100%, 50%, 0.25);
+}
+/* Hero span text */
+.hero-text-container .state span {
+  font-size: 14px;
+  font-family: "Space Mono", sans-serif;
+  color: #00FF8C;
+}
+/* Punto */
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #00FF8C;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.2; }
+}
+/* Title */
+.hero-container h1, .green {
+  margin-top: 25px;
+  line-height: 1;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 98px;
+}
+.hero-container h1 .green {
+  color: #00FF8C;
+}
+/* Paragraph */
+.hero-container p {
+  margin-top: 45px;
+  color: #888884;
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.hero-container p .highlight {
+  color: #F0F0EE;
+}
+
+
+/* Buttons */
+.buttons-container {
+  margin: 50px;
+}
+.buttons-container button {
+  all: unset;
+  cursor: pointer;
+  width: 225px;
+  height: 50px;
+  margin: 20px;
+  font-family: "Space Mono", sans-serif;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.buttons-container button.explore {
+  background-color: #00FF8C;
+  color: #090909;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons-container button.explore:hover {
+  background-color: #00C46A;
+  transform: translate(0, -2px);
+}
+.buttons-container button .arrow {
+  width: 18px;
+  height: 18px;
+  margin-left: 20px;
+  flex-shrink: 0;
+}
+.buttons-container button.stack {
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  color: #888884;
+}
+.buttons-container button.stack:hover {
+  color: #00FF8C;
+  border: 1px solid rgb(0, 255, 140, 0.25);
+}
+
+
+/* Hero Image ---------------------------------------------------*/
+.hero-image {
+  width: 650px;
+  height: 650px;
+  border: 1px solid green;
+}
+
