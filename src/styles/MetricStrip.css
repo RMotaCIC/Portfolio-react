@@ -1,0 +1,25 @@
+.metric-container {
+  width: 100%;
+  height: 160px;
+  margin-top: 10px;
+  border-top: 1px solid hsla(0, 0%, 100%, 0.07);
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.07);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Barlow", sans-serif;
+  font-size: 54px;
+}
+
+.metric-container span {
+  color: #00FF8C;
+}
+.metric-container span.line {
+  color: hsla(0, 0%, 100%, 0.07);
+}
+
+.metric-container p {
+  font-family: "Space Mono", sans-serif;
+  font-size: 13px;
+  color: #888884;
+}
