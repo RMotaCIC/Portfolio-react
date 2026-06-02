@@ -1,5 +1,6 @@
 import "../styles/Hero.css";
 import { TbArrowBadgeRightFilled } from "react-icons/tb";
+import CodeWindow from "./CodeWindow.tsx";
 
 function Hero () {
   return (
@@ -21,7 +22,7 @@ function Hero () {
       </div>
 
       <div className="hero-image">
-        
+        <CodeWindow />
       </div>
 
     </div>
@@ -29,4 +30,3 @@ function Hero () {
 }
 
 export default Hero;
-
