@@ -5,23 +5,28 @@ function MetricStrip () {
     <div className="metric-container">
       
       <div>
-        7<span>+</span>
+        1
         <p>YEARS OF EXPERIENCE</p>
       </div>
+
       <span className="line">|</span>
+      
       <div>
-        40<span>+</span>
-        <p>PROJECTS SHIPPED</p>
+        5
+        <p>PROJECTS DEVELOPED</p>
       </div>
+
       <span className="line">|</span>
 
       <div>
-        99.9<span>%</span>
-        <p>UPTIME DELIVERED</p>
+        10<span>+</span>
+        <p>TECHNOLOGIES MASTERED</p>
       </div>
+      
       <span className="line">|</span>
+
       <div>
-        12<span>+</span>
+        1
         <p>ENTERPRISE CLIENTS</p>
       </div>
 

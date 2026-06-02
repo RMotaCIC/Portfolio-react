@@ -14,6 +14,7 @@
 .metric-container span {
   color: #00FF8C;
 }
+
 .metric-container span.line {
   color: hsla(0, 0%, 100%, 0.07);
 }

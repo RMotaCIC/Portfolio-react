@@ -1,0 +1,108 @@
+/* ── CAROUSEL WRAPPER ── */
+/* Oculta lo que se sale y crea el fade en los bordes */
+.carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  /* Fade en los bordes izquierdo y derecho */
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
+
+/* ── TRACK ── */
+.carousel-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+/* Pausa al hover */
+.carousel-wrapper:hover .carousel-track {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* -50% porque duplicamos el array */
+}
+
+/* ── TARJETA ── */
+.stack-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 32px 28px;
+  width: 160px;
+  flex-shrink: 0;
+  background: #101010;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  position: relative;
+  overflow: hidden;
+  transition: background 0.25s;
+  cursor: default;
+  transition: 0.5s;
+}
+
+.stack-card:hover {
+  background: #141414;
+  cursor: pointer;
+}
+
+/* Línea verde inferior al hover */
+.stack-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 2px;
+  background: #00FF8C;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.stack-card:hover::after {
+  transform: scaleX(1);
+}
+
+.stack-icon {
+  font-size: 20px;
+  color: #555552;
+  transition: color 0.25s;
+  line-height: 1;
+}
+
+.stack-card:hover .stack-icon {
+  color: #00FF8C;
+}
+
+.stack-name {
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  color: #F0F0EE;
+  letter-spacing: 0.03em;
+}
+
+.stack-tag {
+  font-family: "Space Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #00FF8C;
+  background: rgba(0, 255, 140, 0.08);
+  border: 1px solid rgba(0, 255, 140, 0.2);
+  padding: 3px 10px;
+  text-transform: uppercase;
+}
