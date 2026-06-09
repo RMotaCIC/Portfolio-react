@@ -5,14 +5,14 @@ function MetricStrip () {
     <div className="metric-container">
       
       <div>
-        1
-        <p>YEARS OF EXPERIENCE</p>
+        2
+        <p>YEARS OF EXPERIENCE (LEARNING)</p>
       </div>
 
       <span className="line">|</span>
       
       <div>
-        5
+        0
         <p>PROJECTS DEVELOPED</p>
       </div>
 
@@ -26,7 +26,7 @@ function MetricStrip () {
       <span className="line">|</span>
 
       <div>
-        1
+        0
         <p>ENTERPRISE CLIENTS</p>
       </div>
 

@@ -9,10 +9,11 @@ function Hero () {
       <div className="hero-text-container">
         <div className="state">
           <span className="dot"></span>
-          <span>AVAILABLE FOR PROJECTS</span>
+          {/* <span>AVAILABLE FOR PROJECTS</span> */}
+          <span>PROCESSING</span>
         </div>
-        <h1>ENGINERING <span className="green">THE DIGITAL</span> FUTURE</h1>
-        <p>Specializing in <span className="highlight">high-performance distributed systems</span> and avant-garde UI architectures. I build tools that redefine efficiency — from cloud orchestration to real-time analytics interfaces.</p>
+        <h1>DEVELOPING <span className="green">THE DIGITAL</span> FUTURE</h1>
+        <p>Currently learning <span className="highlight">Full-Stack Software Development</span> with the ultimate goal of transitioning and specializing in the development of ML models to offer solutions through the integration of Software, Data, and <span className="highlight">AI</span>.</p>
 
         <div className="buttons-container">
           <button className="explore">EXPLORE WORK

@@ -23,20 +23,23 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  border: 1px solid hsla(153, 100%, 50%, 0.25);
+  /* border: 1px solid hsla(153, 100%, 50%, 0.25); */
+  border: 1px solid hsl(42, 100%, 51%, 0.25);
 }
 /* Hero span text */
 .hero-text-container .state span {
   font-size: 14px;
   font-family: "Space Mono", sans-serif;
-  color: #00FF8C;
+  /* color: #00FF8C; */
+  color: #ffb303;
 }
 /* Punto */
 .dot {
   display: inline-block;
   width: 8px;
   height: 8px;
-  background: #00FF8C;
+  /* background: #00FF8C; */
+  background: #ffb303;
   border-radius: 50%;
   animation: pulse 2s infinite;
 }
