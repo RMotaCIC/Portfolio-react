@@ -1,8 +1,9 @@
-import './App.css'
+import './App.css';
 import Header from "./components/Header.tsx";
 import Hero from "./components/Hero.tsx";
 import MetricStrip from './components/MetricStrip.tsx';
 import StackStrip from './components/StackStrip.tsx';
+import ProjectsShowcase from './components/ProjectsShowcase.tsx';
 
 function App() {
 
@@ -22,6 +23,10 @@ function App() {
 
     <section>
       <StackStrip />
+    </section>
+
+    <section>
+      <ProjectsShowcase />
     </section>
     </>
   )
