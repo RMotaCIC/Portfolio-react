@@ -15,8 +15,7 @@ function Header () {
         <a href="#" className="nav-link">ABOUT ME</a>
         <a href="#" className="nav-link">PROJECTS</a>
         <a href="#" className="nav-link">BLOG</a>
-        <a href="#" className="nav-link">CONTACT</a>
-        <a href="#" className="nav-link collab">COLLAB</a>
+        <a href="#" className="nav-link contact">CONTACT</a>
       </nav>
 
     </div>

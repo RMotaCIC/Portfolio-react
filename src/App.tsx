@@ -28,6 +28,10 @@ function App() {
     <section>
       <ProjectsShowcase />
     </section>
+
+    <section>
+      
+    </section>
     </>
   )
 }

@@ -15,7 +15,13 @@ function ProjectsShowcase () {
           <img src={img1} alt="Project Image" />
         </div>
         <div className="article-description">
-          
+          <div className="project-details">
+            <span>001</span>
+            <span className='type'><MdKeyboardDoubleArrowRight className='arrow'/>TEST</span>
+          </div>
+
+          <h2>Test Project 1: Title</h2>
+          <p>Test Project 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorum quos velit a ipsum nisi facere repellendus ratione vitae. Commodi magni accusamus nemo iste sit natus quae, voluptatum eum omnis.</p>
         </div>
       </article>
 
@@ -23,12 +29,12 @@ function ProjectsShowcase () {
         <div className="article-description">
 
           <div className="project-details">
-            <span>001</span>
-            <span><MdKeyboardDoubleArrowRight />TEST</span>
+            <span>002</span>
+            <span className='type'><MdKeyboardDoubleArrowRight className='arrow'/>TEST</span>
           </div>
 
-          <h2>Test Test</h2>
-          <p>Test test Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorum quos velit a ipsum nisi facere repellendus ratione vitae. Commodi magni accusamus nemo iste sit natus quae, voluptatum eum omnis.</p>
+          <h2>Test Project 2: Title</h2>
+          <p>Test Project 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorum quos velit a ipsum nisi facere repellendus ratione vitae. Commodi magni accusamus nemo iste sit natus quae, voluptatum eum omnis.</p>
         </div>
         <div className="article-img">
           <img src={img2} alt="Project Image" />
