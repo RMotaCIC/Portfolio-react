@@ -17,7 +17,7 @@ function ProjectsShowcase () {
         <div className="article-description">
           <div className="project-details">
             <span>001</span>
-            <span className='type'><MdKeyboardDoubleArrowRight className='arrow'/>TEST</span>
+            <span className='type'><MdKeyboardDoubleArrowRight/>TEST</span>
           </div>
 
           <h2>Test Project 1: Title</h2>

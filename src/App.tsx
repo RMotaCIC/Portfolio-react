@@ -4,6 +4,7 @@ import Hero from "./components/Hero.tsx";
 import MetricStrip from './components/MetricStrip.tsx';
 import StackStrip from './components/StackStrip.tsx';
 import ProjectsShowcase from './components/ProjectsShowcase.tsx';
+import Contact from './components/Contact.tsx';
 
 function App() {
 
@@ -30,7 +31,7 @@ function App() {
     </section>
 
     <section>
-      
+      <Contact />
     </section>
     </>
   )
