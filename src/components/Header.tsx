@@ -11,7 +11,7 @@ function Header () {
       </div>
 
       <nav className="header-nav">
-        <a href="#hero" className="nav-link">HOME</a>
+        <a href="#home" className="nav-link">HOME</a>
         <a href="#aboutme" className="nav-link">ABOUT ME</a>
         <a href="#projectsshowcase" className="nav-link">PROJECTS</a>
         <a href="#" className="nav-link">BLOG</a>

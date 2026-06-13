@@ -3,6 +3,7 @@ import { TbArrowBadgeRightFilled } from "react-icons/tb";
 import CodeWindow from "./CodeWindow.tsx";
 
 function Hero () {
+
   return (
     <div className="hero-container">
 

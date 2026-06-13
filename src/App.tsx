@@ -14,7 +14,7 @@ function App() {
       <Header />
     </header>
 
-    <section id='hero'>
+    <section id='home'>
       <Hero />
     </section>
 
@@ -22,7 +22,7 @@ function App() {
       <MetricStrip />
     </section>
 
-    <section>
+    <section id='stack'>
       <StackStrip />
     </section>
 
