@@ -5,6 +5,7 @@ import MetricStrip from './components/MetricStrip.tsx';
 import StackStrip from './components/StackStrip.tsx';
 import ProjectsShowcase from './components/ProjectsShowcase.tsx';
 import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
 
     <section id='contact'>
       <Contact />
+      <Footer />
     </section>
     </>
   )

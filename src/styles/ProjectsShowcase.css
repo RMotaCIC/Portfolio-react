@@ -59,7 +59,7 @@
 .project-details .type {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-family: 'Space Mono', sans-serif;
   color: #00FF8C;
   margin-top: 5px;
