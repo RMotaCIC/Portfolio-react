@@ -20,7 +20,7 @@ function Contact () {
           <input type="text" name="email" id="email" placeholder="Your email" />
 
           <p>PROJECT</p>
-          <textarea name="project" id="project" rows={6} placeholder="Give me a brief overview of your project"></textarea>
+          <textarea name="project" id="project" rows={4} placeholder="Give me a brief overview of your project"></textarea>
 
           <button type="submit">INITIATE CONTACT <MdKeyboardDoubleArrowRight className='arrow'/></button>
           

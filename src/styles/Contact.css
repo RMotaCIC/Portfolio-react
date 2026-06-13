@@ -1,18 +1,19 @@
 /* Contact Container */
 .contact-container {
   width: 100%;
-  height: 900px;
+  height: 800px;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
 }
 
 /* Form */
 .contact-container .contact-form {
-  padding: 80px;
-  width: 725px;
-  height: 800px;
+  padding: 30px 80px;
+  width: 600px;
+  height: 625px;
   background-color: #101010;
+  border-radius: 50px;
 }
 
 /* Form container span and title */
@@ -50,9 +51,9 @@
 .contact-form form button {
   all: unset;
   width: 100%;
-  height: 60px;
+  height: 40px;
   background-color: #00ff8c;
-  margin-top: 40px;
+  margin-top: 20px;
   padding-left: 10px;
   display: inline-flex;
   align-items: center;
