@@ -14,11 +14,11 @@ function App() {
       <Header />
     </header>
 
-    <section>
+    <section id='hero'>
       <Hero />
     </section>
 
-    <section>
+    <section id='aboutme'>
       <MetricStrip />
     </section>
 
@@ -26,11 +26,11 @@ function App() {
       <StackStrip />
     </section>
 
-    <section>
+    <section id='projectsshowcase'>
       <ProjectsShowcase />
     </section>
 
-    <section>
+    <section id='contact'>
       <Contact />
     </section>
     </>

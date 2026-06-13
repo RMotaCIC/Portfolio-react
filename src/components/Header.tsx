@@ -11,11 +11,11 @@ function Header () {
       </div>
 
       <nav className="header-nav">
-        <a href="#" className="nav-link">HOME</a>
-        <a href="#" className="nav-link">ABOUT ME</a>
-        <a href="#" className="nav-link">PROJECTS</a>
+        <a href="#hero" className="nav-link">HOME</a>
+        <a href="#aboutme" className="nav-link">ABOUT ME</a>
+        <a href="#projectsshowcase" className="nav-link">PROJECTS</a>
         <a href="#" className="nav-link">BLOG</a>
-        <a href="#" className="nav-link contact">CONTACT</a>
+        <a href="#contact" className="nav-link contact">CONTACT</a>
       </nav>
 
     </div>
