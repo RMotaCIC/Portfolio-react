@@ -14,8 +14,8 @@ function Header () {
         <a href="#home" className="nav-link">HOME</a>
         <a href="#aboutme" className="nav-link">ABOUT ME</a>
         <a href="#projectsshowcase" className="nav-link">PROJECTS</a>
-        <a href="/Portfolio-react/blog.html" className="nav-link">BLOG</a>
-        <a href="#contact" className="nav-link contact">CONTACT</a>
+        <a href="#contact" className="nav-link">CONTACT</a>
+        <a href="#" className="nav-link blog">BLOG</a>
       </nav>
 
     </div>

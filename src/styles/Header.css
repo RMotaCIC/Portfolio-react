@@ -67,7 +67,7 @@
   width: 100%;
 }
 /* Collab button */
-.header-nav .contact {
+.header-nav .blog {
   width: 90px;
   height: 40px;
   text-align: center;
@@ -78,21 +78,21 @@
   background-color: #00FF8C;
   transition: 0.3s;
 }
-.header-nav .contact:hover {
+.header-nav .blog:hover {
   cursor: pointer;
   color: #090909;
   scale: 1.15;
 }
-.header-nav .contact::before {
+.header-nav .blog::before {
   content: "";
   position: absolute;
   top: 70%;
-  left: 13%;
+  left: 28%;
   width: 0;
   height: 2px;
   background-color: #090909;
   transition: 0.3s;
 }
-.header-nav .contact:hover::before {
-  width: 75%;
+.header-nav .blog:hover::before {
+  width: 45%;
 }
