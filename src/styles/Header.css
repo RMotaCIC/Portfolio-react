@@ -35,7 +35,7 @@
 
 /* Navigation bar ----------------------------*/
 .header-nav {
-  width: 550px;
+  width: 450px;
   height: 55px;
   display: flex;
   justify-content: space-between;
@@ -67,7 +67,7 @@
   width: 100%;
 }
 /* Collab button */
-.header-nav .blog {
+.header-nav .contact {
   width: 90px;
   height: 40px;
   text-align: center;
@@ -78,21 +78,21 @@
   background-color: #00FF8C;
   transition: 0.3s;
 }
-.header-nav .blog:hover {
+.header-nav .contact:hover {
   cursor: pointer;
   color: #090909;
   scale: 1.15;
 }
-.header-nav .blog::before {
+.header-nav .contact::before {
   content: "";
   position: absolute;
   top: 70%;
-  left: 28%;
+  left: 13%;
   width: 0;
   height: 2px;
   background-color: #090909;
   transition: 0.3s;
 }
-.header-nav .blog:hover::before {
-  width: 45%;
+.header-nav .contact:hover::before {
+  width: 75%;
 }
